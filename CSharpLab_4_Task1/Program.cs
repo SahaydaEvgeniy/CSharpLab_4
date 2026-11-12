@@ -6,7 +6,7 @@ Console.InputEncoding = Encoding.UTF8;
 
 Random random = new Random();
 
-    Store store = new Store();
+Store store = new Store();
 
 store.Products.Add(new Product("Хліб", 30, 20));
 store.Products.Add(new Product("Молоко", 45, 15));
